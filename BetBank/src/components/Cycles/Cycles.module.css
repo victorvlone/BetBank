@@ -1,0 +1,54 @@
+.cycles_container {
+  display: flex;
+  gap: 3.8rem;
+  text-align: center;
+}
+.cycles_content {
+  display: flex;
+  flex-direction: column;
+  gap: 3.4rem;
+}
+.cycle_number {
+  background-color: var(--content-color);
+  width: 16.7rem;
+  height: 34.5rem;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  font-size: 1.5rem;
+}
+.cycles_names {
+  font-size: 1.5rem;
+  height: 34.5rem;
+  text-align: end;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding-top: calc(0.2rem + 2.3rem + 1.5rem + 1.5rem + 2rem);
+  padding-bottom: 2rem;
+  justify-content: end;
+  font-weight: 600;
+  color: var(--azul);
+}
+.cycle_data_container{
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    align-items: end;
+}
+.cycle_data_div{
+    display: flex;
+    gap: 3.8rem;
+}
+.cycle_content {
+  width: 16.7rem;
+  height: 7rem;
+  background-color: var(--content-color);
+  border-radius: 0.5rem;
+  text-align: center;
+  color: white;
+padding: .5rem;
+}
