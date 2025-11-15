@@ -11,10 +11,10 @@
   --content-color: #110E24;
   --text-shadow: 0 0 6px rgb(0, 0, 0, 0.25);
   --azul: #007AFF;
+  --background-color: #07041b;
 }
-
 body {
   font-size: 1.6rem;
-  background-color: #07041b;
+  background-color: var(--background-color);
   height: 100vh;
 }

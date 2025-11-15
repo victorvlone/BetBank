@@ -33,15 +33,15 @@
   font-weight: 600;
   color: var(--azul);
 }
-.cycle_data_container{
-    display: flex;
-    flex-direction: column;
-    gap: 1.6rem;
-    align-items: end;
+.cycle_data_container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  align-items: end;
 }
-.cycle_data_div{
-    display: flex;
-    gap: 3.8rem;
+.cycle_data_div {
+  display: flex;
+  gap: 3.8rem;
 }
 .cycle_content {
   width: 16.7rem;
@@ -50,5 +50,5 @@
   border-radius: 0.5rem;
   text-align: center;
   color: white;
-padding: .5rem;
+  padding: 0.5rem;
 }

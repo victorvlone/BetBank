@@ -1,0 +1,43 @@
+
+.navBar_container{
+    width: 8rem;
+    height: 100vh;
+    background-color: var(--content-color);
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    line-height: 1;
+}
+/* Estilos Base (Sem alteração) */
+.container_content_icon {
+    width: 90%;
+    height: 6.6rem;
+    /* Correção: margin-right deve ter valor se for usado */
+    /* margin: right; é inválido. Se quiser centralizar, use auto */ 
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 1rem 0 0 1rem;
+        transition: background-color .3s ease-in-out;
+}
+
+.icon_container {
+    /* Mantenha o padding e estilos base */
+    padding: .8rem;
+    margin-right: 7.3436px;
+    border-radius: 1rem;
+    transition: background-color .3s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_content_icon:hover {
+    background-color: var(--background-color); 
+}
+.container_content_icon:hover .icon_container {
+    background-color: var(--azul); 
+}
+.container_content_icon:hover :global(.nav-icon) {
+    color: white;
+}

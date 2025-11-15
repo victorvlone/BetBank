@@ -4,3 +4,15 @@
     justify-content: end;
     padding: 6rem;
 }
+.app_content{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-icon{
+    cursor: pointer;
+    font-size: 2.5rem;
+    color: var(--azul);
+    line-height: 1;
+    width: max-content;
+        transition: color .3s ease-in-out;
+}
