@@ -4,12 +4,16 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import Cycles from "./components/Cycles/Cycles.jsx";
 import NavBar from "./components/NavBar/NavBar.jsx";
+import Header from "./components/Header/Header.jsx";
 
 function App() {
   return (
     <div className="app_content">
       <NavBar />
-      <Cycles />
+      <div className="container-principal">
+        <Header />
+        <Cycles />
+      </div>
     </div>
   );
 }
