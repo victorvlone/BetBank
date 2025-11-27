@@ -44,9 +44,9 @@ public class MatchService {
 
     public void deleteMatch(Long id) {
 
-         if (!matchRepository.existsById(id)) {
-        throw new RuntimeException("Match não encontrada");
-    }
+        if (!matchRepository.existsById(id)) {
+            throw new RuntimeException("Match não encontrada");
+        }
         matchRepository.deleteById(id);
     }
 }
